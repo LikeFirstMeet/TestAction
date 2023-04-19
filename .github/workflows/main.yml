@@ -21,7 +21,7 @@ jobs:
       - uses: caijinglong/action-org-repo-list@main
         id: org_repo_list
         with:
-          github-token: ${{ secrets.PERSON_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           org: ${{ env.ORG }}
           exclude-repo-names: '.github,.github-workflow'
           wrap-with-details: true
