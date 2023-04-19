@@ -5,7 +5,7 @@ on:
     - main
     - release/*
    schedule:
-    - cron: "32 3 * * *"
+    - cron: "35 3 * * *"
 jobs:
   list:
     runs-on: ubuntu-latest
