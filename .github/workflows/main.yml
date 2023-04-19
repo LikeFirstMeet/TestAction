@@ -27,7 +27,7 @@ jobs:
           wrap-with-details: true
       - name: Generate README.md
         env:
-          GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           export TARGET_FILE=/tmp/.github/profile/README.md
           gh repo clone ${{ env.ORG }}/.github /tmp/.github
