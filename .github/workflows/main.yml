@@ -12,7 +12,7 @@ on:
 
 env:
 #   ORG: fluttercandies
-  ORG: flutter-fix-something
+  ORG: openeuler-mirror
 
 jobs:
   build:
